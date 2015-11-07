@@ -1,5 +1,5 @@
 {
-	"name": "silverstripe/module",
+	"name": "silverstripe-module/skeleton",
 	"description": "A skeleton for SilverStripe modules.",
 	"keywords": ["silverstripe", "CMS"],
 	"license": "BSD-3-Clause",
