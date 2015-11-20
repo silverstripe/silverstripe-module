@@ -26,7 +26,7 @@ Here is a composer command to create a new module project. Ensure you read the [
 composer.json to designate your code as a SilverStripe module. 
 
 ```
-composer create-project silverstripe/module module-name
+composer create-project silverstripe-module/skeleton module-name
 ```
 
 ## License
