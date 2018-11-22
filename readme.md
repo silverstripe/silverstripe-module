@@ -1,7 +1,6 @@
 # SilverStripe supported module skeleton
 
-A useful skeleton to more easily create modules that conform to the [Module Standard]
-(https://docs.silverstripe.org/en/3.2/developer_guides/extending/modules/#module-standard).
+A useful skeleton to more easily create modules that conform to the [Module Standard(https://docs.silverstripe.org/en/3.2/developer_guides/extending/modules/#module-standard).
 
 This readme contains descriptions of the parts of this module base you should customise to meet you own module needs.
 For example, the module name in the H1 above should be you own module name, and the description text you are reading now
