@@ -27,9 +27,9 @@ you will need to adjust the import paths for silverstripe/admin JS and SCSS load
 
 ## Installation
 Add some installation instructions here, having a 1 line composer copy and paste is useful. 
-Here is a composer command to create a new module project. Ensure you read the ['publishing a module']
-(https://docs.silverstripe.org/en/developer_guides/extending/how_tos/publish_a_module/) guide update you module 
-composer.json to designate your code as a SilverStripe module. 
+Here is a composer command to create a new module project. Ensure you read the
+['publishing a module'](https://docs.silverstripe.org/en/developer_guides/extending/how_tos/publish_a_module/) guide
+and update your module's composer.json to designate your code as a SilverStripe module. 
 
 ```
 composer require silverstripe-module/skeleton 4.x-dev
