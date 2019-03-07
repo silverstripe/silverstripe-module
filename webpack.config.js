@@ -40,7 +40,7 @@ const config = [
   {
     name: 'css',
     entry: {
-      bundle: `${PATHS.SRC}/styles/bundle.scss`,
+      bundle: `${PATHS.SRC}/bundles/bundle.scss`,
     },
     output: {
       path: PATHS.DIST,
