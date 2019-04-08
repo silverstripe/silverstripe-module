@@ -24,7 +24,7 @@ directories
 - Update (or remove) `package.json` with your requirements and package name. Run `yarn` (or remove `yarn.lock`) to 
 ensure dependencies resolve correctly
 - Clear the git history by running `rm -rf .git && git init`
-- Add a push to a new remote!
+- Add and push to a new remote!
 
 ## Requirements
 
@@ -54,7 +54,7 @@ See [License](license.md)
 We have included a 3-clause BSD license you can use as a default. We advocate for the BSD license as 
 it is one of the most permissive and open licenses.
 
-Feel free to alter the [license.md](license.md) to suit if you wan tto use an alternative license.
+Feel free to alter the [license.md](license.md) to suit if you wan to use an alternative license.
 You can use [choosealicense.com](http://choosealicense.com) to help pick a suitable license for your project.
 
 ## Documentation
