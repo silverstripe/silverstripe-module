@@ -4,7 +4,7 @@
   "main": "./client/src/boot/index.js",
   "author": "You",
   "engines": {
-    "node": ">=6.x"
+    "node": ">=10.x"
   },
   "scripts": {
     "build": "yarn && yarn lint && NODE_ENV=production webpack -p --bail --progress",
@@ -21,18 +21,15 @@
   },
   "dependencies": {
     "babel-polyfill": "6.7.4",
-    "jquery": "^3.1.1",
-    "mime": "^1.4.1",
-    "react": "15.3.1"
+    "react": "^16.8.3"
   },
   "devDependencies": {
-    "@silverstripe/eslint-config": "^0.0.4",
-    "@silverstripe/webpack-config": "^0.8.0",
-    "babel-jest": "^20.0.3",
+    "@silverstripe/eslint-config": "^0.0.5",
+    "@silverstripe/webpack-config": "^1.0.0",
+    "babel-jest": "^23.6.0",
     "enzyme": "^3.3.0",
-    "enzyme-adapter-react-15.4": "^1.0.5",
-    "jest-cli": "^19.0.2",
-    "webpack": "^2"
+    "enzyme-adapter-react-16": "^1.10.0",
+    "jest-cli": "^23.6.0"
   },
   "babel": {
     "presets": [
@@ -55,6 +52,16 @@
       "../silverstripe/admin/node_modules",
       "../../silverstripe/admin/client/src",
       "../../silverstripe/admin/node_modules"
+    ],
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/boot/**",
+      "!**/bundles/**",
+      "!**/legacy/**",
+      "!**/vendor/**",
+      "!**/*-test.{js,jsx}",
+      "!**/*-story.{js,jsx}"
     ],
     "testMatch": [
       "**/tests/**/*-test.js?(x)"
