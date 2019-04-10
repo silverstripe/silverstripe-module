@@ -13,8 +13,18 @@ other places where you need to customise it
 Below is a template of the sections of your readme.md you should ideally include to met the Module Standard 
 and help others make use of your modules.
 
-**Please note:** This module is designed to be a "vendor module". If you need to use it as a non-vendor module,
-you will need to adjust the import paths for silverstripe/admin JS and SCSS loaders.
+### Steps to prepare this module for your own use:
+
+- Add your name/organisation to `LICENSE.md`
+- Update this readme with information about your module. Ensure sections that aren't relevant are deleted and 
+placeholders are edited where relevant
+- Review the README files in the various provided directories. You should replace these with `.gitkeep` or delete the 
+directories
+- Update `composer.json` with your requirements and package name
+- Update (or remove) `package.json` with your requirements and package name. Run `yarn` (or remove `yarn.lock`) to 
+ensure dependencies resolve correctly
+- Clear the git history by running `rm -rf .git && git init`
+- Add and push to a new remote!
 
 ## Requirements
 
@@ -44,7 +54,7 @@ See [License](license.md)
 We have included a 3-clause BSD license you can use as a default. We advocate for the BSD license as 
 it is one of the most permissive and open licenses.
 
-Feel free to alter the [license.md](license.md) to suit if you wan tto use an alternative license.
+Feel free to alter the [license.md](license.md) to suit if you wan to use an alternative license.
 You can use [choosealicense.com](http://choosealicense.com) to help pick a suitable license for your project.
 
 ## Documentation
