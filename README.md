@@ -15,6 +15,7 @@ and help others make use of your modules.
 
 ### Steps to prepare this module for your own use:
 
+- Clone this repository into a folder
 - Add your name/organisation to `LICENSE.md`
 - Update this readme with information about your module. Ensure sections that aren't relevant are deleted and 
 placeholders are edited where relevant
