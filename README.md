@@ -20,11 +20,14 @@ and help others make use of your modules.
 placeholders are edited where relevant
 - Review the README files in the various provided directories. You should replace these with `.gitkeep` or delete the 
 directories
-- Update `composer.json` with your requirements and package name
+- Update the module's `composer.json` with your requirements and package name
 - Update (or remove) `package.json` with your requirements and package name. Run `yarn` (or remove `yarn.lock`) to 
 ensure dependencies resolve correctly
 - Clear the git history by running `rm -rf .git && git init`
-- Add and push to a new remote!
+- Add and push to a VCS repository
+- Either [publish](https://getcomposer.org/doc/02-libraries.md#publishing-to-packagist) the module on packagist.org, or add a [custom repository](https://getcomposer.org/doc/02-libraries.md#publishing-to-a-vcs) to your main `composer.json`
+- Require the module in your main `composer.json`
+- Start developing your module!
 
 ## Requirements
 
