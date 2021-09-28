@@ -28,6 +28,9 @@ ensure dependencies resolve correctly
 - Add and push to a VCS repository
 - Either [publish](https://getcomposer.org/doc/02-libraries.md#publishing-to-packagist) the module on packagist.org, or add a [custom repository](https://getcomposer.org/doc/02-libraries.md#publishing-to-a-vcs) to your main `composer.json`
 - Require the module in your main `composer.json`
+- If the needs to build a JS client
+  - Remove `vendor/silverstripe/admin` and reinstall with `composer install --prefer-source`
+  - Install third party dependencies in your module AND in `vendor/silverstripe/admin` by running `yarn install` in both locations
 - Start developing your module!
 
 ## Requirements
