@@ -1,4 +1,7 @@
-node_modules
+node_modules/
 /vendor/
 .DS_Store
-
+composer.lock
+*.js.map
+*.css.map
+yarn-error.log
