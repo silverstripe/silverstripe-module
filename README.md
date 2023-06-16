@@ -28,8 +28,31 @@ placeholders are edited where relevant
 - Update (or remove) `package.json` with your requirements and package name. Run `yarn install` (or remove `yarn.lock`) to
 ensure dependencies resolve correctly
 - Clear the git history by running `rm -rf .git && git init`
+
+### Using a module locally
+
+- Add the following to your `composer.json`
+```json
+{
+  "repositories": [
+    {
+        "type": "path",
+        "url": "/full/or/relative/path/to/module",
+        "options": {
+            "symlink": false
+        }
+    }
+  ],
+}
+```
+
+### Using a module via a VCS repository
+
 - Add and push to a VCS repository
 - Either [publish](https://getcomposer.org/doc/02-libraries.md#publishing-to-packagist) the module on packagist.org, or add a [custom repository](https://getcomposer.org/doc/02-libraries.md#publishing-to-a-vcs) to your main `composer.json`
+
+### Requiring the module
+
 - Require the module in your main `composer.json`
 - If you need to build your css or js and are using components, injector, scss variables, etc from `silverstripe/admin`:
   - Ensure that `silverstripe/admin` is installed with `composer install --prefer-source` instead of the default `--prefer-dist` (you can use `composer reinstall silverstripe/admin --prefer-source` if you already installed it)
