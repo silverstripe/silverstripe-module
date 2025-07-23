@@ -1,8 +1,7 @@
-
 /* global jQuery */
 
 (function ($) {
   $(document).ready(() => {
-      // your code here.
+    // your code here.
   });
 }(jQuery));
