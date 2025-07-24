@@ -1,9 +1,8 @@
-
 /* global jest, test, expect */
 
 import React from 'react';
-import ExampleComponent from '../ExampleComponent';
 import { render } from '@testing-library/react';
+import ExampleComponent from '../ExampleComponent';
 
 test('ExampleComponent renders', async () => {
   const { container } = render(<ExampleComponent/>);

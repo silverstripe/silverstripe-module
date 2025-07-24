@@ -13,7 +13,7 @@
     "lint": "yarn lint-js && yarn lint-sass",
     "lint-js": "eslint client/src",
     "lint-js-fix": "eslint client/src --fix",
-    "lint-sass": "sass-lint client/src"
+    "lint-sass": "stylelint client/src"
   },
   "dependencies": {
     "core-js": "^3.26.0",
